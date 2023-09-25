@@ -1,16 +1,10 @@
-html{
-    background-color: wheat;
-}
-
-
 .layout {
     background-color: #ECE4D0;
-    margin: 120px 70px 25px 70px;
+    margin: 30px 50px 30px 50px;
     padding: 20px 100px 5px 100px;
     height: max-content;
     border-radius: 25px;
 }
-
 
 .judulhal{
  font-size: 250%;
@@ -21,4 +15,7 @@ margin-top: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+}
+.isihal > a{
+    text-decoration: none;
 }

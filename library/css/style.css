@@ -4,4 +4,6 @@ html{  /*FILE HTML*/
     text-align: center;
     
 }
-
+.carousel-item{
+    size: 50rem;
+}

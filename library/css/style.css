@@ -1,13 +1,24 @@
-html{  /*FILE HTML*/
-    font-family:Helvetica, sans-serif;
+html {
+    /*FILE HTML*/
+    font-family: Helvetica, sans-serif;
     height: 100%;
     text-align: center;
-    
+
 }
-.carousel-item{
+
+.carousel-item {
     size: 50rem;
 }
-.card{
+
+.card {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.tentangweb {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
 }

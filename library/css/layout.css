@@ -4,6 +4,10 @@
     height: max-content;
     border-radius: 25px;
 }
+.index {
+    margin: 30px;
+    padding: 20px;
+}
 
 .judulhal{
  font-size: 250%;

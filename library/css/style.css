@@ -16,9 +16,20 @@ html {
 }
 
 .tentangweb {
-    background-color: lightcoral;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.tentangweb > div {
+    background-color: #FFEEDE;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+#jdlindex{
+    margin-top: 2rem;
+    padding-left: 4rem;
+    text-align: start;
 }

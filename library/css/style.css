@@ -1,18 +1,9 @@
-html {
-    /*FILE HTML*/
-    font-family: Helvetica, sans-serif;
-    height: 100%;
-    text-align: center;
-
-}
-
 .carousel-item {
     size: 50rem;
 }
 
 .card {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 5px 10px 5px 10px;
 }
 
 .tentangweb {
@@ -22,14 +13,28 @@ html {
     padding: 20px;
     border-radius: 15px;
 }
-.tentangweb > div {
+
+.tentangweb>div {
     background-color: #FFEEDE;
     justify-content: center;
     padding: 20px;
     border-radius: 15px;
 }
-#jdlindex{
+
+#jdlindex {
     margin-top: 2rem;
     padding-left: 4rem;
     text-align: start;
+}
+
+.pagination {
+    display: inline-block;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
 }

@@ -52,3 +52,23 @@ footer {
 .blank {
     margin-bottom: 20rem;
 }
+.upload{
+    display: flex;
+    flex-direction: column;
+}
+.upload > div {
+    background-color: beige;
+    margin: 10 0 10 0;
+    padding: 10;
+    
+}
+.updesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.updesc > div {
+    background-color: red;
+    margin: 10 0 10 0;
+    padding: 10;
+}

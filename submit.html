@@ -80,18 +80,35 @@
               </label>
               
             <div class="updesc">
-                <div style="padding: 4rem 8rem;">
-                    <input type="file" id="upload" hidden />
-                    <label for="upload" class="custom-label">Choose file</label>
+                <div style="padding: 1rem 2rem;">
+                    <label for="file" class="drop-container" id="dropcontainer">
+                        <span class="drop-title">Drop files here</span>
+                        or
+                        <input type="file" id="files" accept="file/*" required>
+                      </label>
                   </div>                  
 
                 <div class="uptitle">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Title</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Category</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Links</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                          </div>
+
+                    </form>
 
                     
                 </div>
                 <div>
-                    <textarea rows="6" cols="60" name="comment" form="usrform" style="resize: none;">
-                        Enter Description Here..</textarea>
+                    <textarea rows="8" cols="60" name="comment" form="usrform" style="resize: none;"></textarea>
                 </div>
 
             </div>

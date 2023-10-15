@@ -114,3 +114,14 @@ footer {
     display: flex;
     flex-direction: row;
 }
+.step-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin: 2 0 10 0;
+    padding: 10 30;
+    padding-top: 20;
+}
+.step-nav > a {
+    margin: 4 0;
+}

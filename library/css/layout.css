@@ -79,6 +79,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: beige;
 }
 .profile > div {
     margin: 10 0 10 0;
@@ -87,7 +88,6 @@ footer {
 .profile-nav {
     display: flex;
     flex-direction: column;
-    background-color: bisque;
     margin: 10 0 10 0;
     padding: 10 30;
     padding-top: 20;
@@ -96,7 +96,6 @@ footer {
     margin: 4 0;
 }
 .profile-info {
-    background-color: beige;
     width: 60rem;
     margin: 10 0 10 0;
     padding: 10;
@@ -117,11 +116,49 @@ footer {
 .step-nav {
     display: flex;
     flex-direction: column;
-    background-color: bisque;
     margin: 2 0 10 0;
     padding: 10 30;
     padding-top: 20;
 }
 .step-nav > a {
     margin: 4 0;
+}
+.step-info {
+    width: 60rem;
+    margin: 10 0 10 0;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+}
+.step-info > div {
+    margin: 0 0 10 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.step-step {
+    display: flex;
+    flex-direction: row;
+}
+.step-step > div {
+    border-radius: 10px;
+    padding: 10;
+    margin: 5px 0px;
+}
+.komen {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+}
+.komen-user{
+    display: flex; 
+    align-items: center;
+    margin: 3px 0px;
+    padding: 4px 0px;
+}
+.komen-isi{
+    display: flex; 
+    flex-direction: column;
 }

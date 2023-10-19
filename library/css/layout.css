@@ -48,7 +48,10 @@ footer {
 .isihal>a {
     text-decoration: none;
 }
-
+.isi-link{
+    text-decoration: none; 
+    color: inherit;
+}
 .blank {
     margin-bottom: 20rem;
 }

@@ -122,7 +122,8 @@ footer {
     justify-content: center;
 }
 .step-thumbnail{
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .step-thumbnail > img {
     border-radius: 10px;

@@ -28,44 +28,55 @@
 
   <!-- HEADER -->
   <div class="b-example-divider"></div>
-  <header class="p-3 mb-3 border-bottom">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a class="navbar-brand" href="index.html">
-          <img src="library/images/logo/logo.png" alt="Bootstrap" width="50" height="44">
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="explore.html" class="nav-link px-2 link-secondary">Explore</a></li>
-          <li><a href="forum.html" class="nav-link px-2 link-dark">Forum</a></li>
+      <a class="navbar-brand" href="index.html">
+        <img src="library/images/logo/logo.png" alt="Bootstrap" width="50" height="44">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark lead" href="out-explore.html">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark lead" href="out-forum.html">Forum</a>
+          </li>
         </ul>
-
-        <ul class="nav col-12 col-lg-auto ms-auto mb-2 mb-md-0">
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-          </form>
-
-          <li><button type="button" class="btn btn-warning shadow-none"
-              style="margin-right: 11px;background-color: #FBB676;">Submit +</button></li>
+        <form class="d-flex col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="login.html" type="button" class="btn btn-warning shadow-none" style="margin-right: 11px;">Submit +</a>
+          </li>
         </ul>
-
-        <div class="dropdown-center">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+  
+        <div class="dropdown-center mt-lg-0 mt-3">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle-split"
+            data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://avatars.githubusercontent.com/u/90191419" alt="ava" width="32" height="32"
-                 class="rounded-circle border-dark">
+              class="rounded-circle border-dark">
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu ">
             <!-- Dropdown content here -->
             <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-            <li><a class="dropdown-item" href="setting.html">Setting</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index2.html">Sign Out</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="index.html">Sign Out</a></li>
           </ul>
         </div>
-
+  
+  
       </div>
     </div>
-  </header>
+  </nav>
+  
+  
 
   <div class="blank layout ">
     <div class="judulhal">

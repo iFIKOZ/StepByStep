@@ -27,4 +27,12 @@
     text-align: center;
     padding-left: 0rem;
 }
+.tentangweb {
+    flex-direction: column;
+}
+
+.tentangweb>div {
+    margin-top: 1rem;
+    width: 100%;
+}
   }

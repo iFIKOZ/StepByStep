@@ -29,40 +29,43 @@
 
     <!-- HEADER -->
     <div class="b-example-divider"></div>
-    <header class="p-3 mb-3 border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a class="navbar-brand" href="index.html">
-            <img src="library/images/logo/logo.png" alt="Bootstrap" width="50" height="44">
-          </a>
-  
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="out-explore.html" class="nav-link px-2 link-secondary">Explore</a></li>
-            <li><a href="out-forum.html" class="nav-link px-2 link-dark">Forum</a></li>
-          </ul>
-  
-          <ul class="nav col-12 col-lg-auto ms-auto mb-2 mb-md-0">
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-            </form>
-  
-            <li><a href="login.html" type="button" class="btn btn-warning shadow-none"
-              style="margin-right: 11px;">Submit
-              +</a></li>
-  
-            <li><a href="login.html">
-              <button type="button" class="btn btn-outline-primary shadow-none" style="margin-right: 11px;">
-                <img src="library/images/logo/person.svg" alt="Image Alt Text" width="22" height="22" style="margin-right: 5px;">
-                Sign In
-              </button></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="library/images/logo/logo.png" alt="Bootstrap" width="50" height="44">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark lead" href="out-explore.html">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark lead" href="out-forum.html">Forum</a>
             </li>
           </ul>
-  
-  
-  
+          <form class="d-flex col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="login.html" type="button" class="btn btn-warning shadow-none" style="margin-right: 11px;">Submit +</a>
+            </li>
+            <li class="nav-item mt-lg-0 mt-3">
+              <a href="login.html">
+                <button type="button" class="btn btn-outline-primary shadow-none" style="margin-right: 11px;">
+                  <img src="library/images/logo/person.svg" alt="Image Alt Text" width="22" height="22" style="margin-right: 5px;">
+                  Sign In
+                </button>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
 
     <div class="index layout">
         <div class="judulhal">

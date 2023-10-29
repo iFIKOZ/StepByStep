@@ -4,6 +4,7 @@
 
 .card {
     margin: 5px 10px 5px 10px;
+    width:14rem;
 }
 .card-body{
     height: 80px;
@@ -12,17 +13,20 @@
 
 .tentangweb {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
     padding: 20px;
     border-radius: 15px;
+    
 }
 
 .tentangweb>div {
     background-color: #FFEEDE;
-    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
     padding: 20px;
     border-radius: 15px;
+    width: 40%;
 }
 
 #jdlindex {

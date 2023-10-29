@@ -13,4 +13,18 @@
 .forumsearch{
     margin-top: 1.5rem;
 }
+.tentangweb{
+    margin: 0px 2px;
+}
+.card {
+    width:8rem;
+}
+.card-body{
+    height: 110px;
+    padding-top: 10px;
+}
+#jdlindex {
+    text-align: center;
+    padding-left: 0rem;
+}
   }

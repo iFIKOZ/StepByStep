@@ -63,6 +63,9 @@
     cursor: pointer;
     transition: background .2s ease-in-out, border .2s ease-in-out;
   }
+  .file-input {
+    display: none;
+  }
   
   .drop-container:hover {
     background: #a5e4fd;
@@ -80,7 +83,9 @@
     text-align: center;
     transition: color .2s ease-in-out;
   }
-
+.frms{
+    resize: none;
+}
   .rate {
     float: left;
     height: 46px;

@@ -35,4 +35,12 @@
     margin-top: 1rem;
     width: 100%;
 }
+.drop-container {
+    height: 15rem;
+    width: 150px;
+  }
+  .drpfile {
+    height: 15rem;
+    width: auto;
+  }
   }

@@ -47,6 +47,10 @@
     text-decoration: none;
     margin-top: 1rem;
 }
+.drpstep {
+    width: 15rem;
+    height: 200px;
+  }
 .drop-container {
     background-color: #D1F1FF;
     position: relative;
@@ -83,8 +87,9 @@
     text-align: center;
     transition: color .2s ease-in-out;
   }
-.frms{
+    .frms{
     resize: none;
+    height: auto;
 }
   .rate {
     float: left;

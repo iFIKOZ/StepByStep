@@ -35,12 +35,18 @@
     margin-top: 1rem;
     width: 100%;
 }
-.drop-container {
-    height: 15rem;
-    width: 150px;
-  }
   .drpfile {
     height: 15rem;
     width: auto;
+  }
+  .drpstep {
+    width: auto;
+    height: 10rem;
+  }
+  .updesc{
+    flex-direction: column;
+  }
+  .textinput{
+    height: 10rem;
   }
   }

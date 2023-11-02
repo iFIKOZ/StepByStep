@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 600px) {
+.step-nav{
+    padding: 10 0;
+}
+.step-layout{
+    margin: 0 19;
+}
+.index{
+    margin: 0px 5px;
+}
+.step-thumbnail > img {
+    width: 75%;
+}
+#desc > img{
+    width: 90%;
+    justify-content: center;
+}
+.rate{
+    float: right;
+}
+}

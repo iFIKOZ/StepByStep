@@ -92,7 +92,7 @@ footer {
 .profile-nav {
     display: flex;
     flex-direction: column;
-    margin: 10 0 10 0;
+    margin: 10px 0px;
     padding: 10 30;
     padding-top: 20;
 }
@@ -168,7 +168,7 @@ footer {
 }
 .komen-user{
     display: flex; 
-    align-items: center;
+    align-items: flex-start;
     margin: 3px 0px;
     padding: 4px 0px;
 }

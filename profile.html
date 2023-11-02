@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="library/css/layout.css">
     <link rel="stylesheet" type="text/css" href="library/css/style.css">
     <link rel="stylesheet" type="text/css" href="library/css/loader.css">
+    <link rel="stylesheet" type="text/css" href="library/css/phone.css">
+    <link rel="stylesheet" type="text/css" href="library/css/profile.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -78,8 +80,9 @@
 
     <div class="index layout">
 
-        <div class="profile">
-            <div class="profile-nav" style="margin-right: 1rem;height: fit-content;">
+        <div class="profile ">
+          <div class="d">
+            <div class="profile-nav" id="profile-nav">
 
                 <img src="https://avatars.githubusercontent.com/u/90191419" alt="ava" width="100" height="100"
                     class="rounded-circle border-dark d-block mx-auto"
@@ -94,6 +97,7 @@
                 <a href="#" type="button" class="btn btn-warning shadow-none">Account</a>
 
             </div>
+          </div>
 
             <div class="profile-info" style="height: fit-content;">
                 <div><h1>Profile Information</h1></div>
@@ -103,8 +107,8 @@
                 <div>
                     <div class="form-edit">
                         <div>
-                            <input class="form-control" type="text" value="Arfiko" 
-                            aria-label="Name Edit" disabled readonly style="width: 20rem;">
+                            <input class="form-control" id="form-profile" type="text" value="Arfiko" 
+                            aria-label="Name Edit" disabled readonly>
                         </div>
                         <div>
 
@@ -120,8 +124,8 @@
                 <div>
                     <div class="form-edit">
                         <div>
-                            <input class="form-control" type="text" value=iFIKOZ 
-                            aria-label="Nickname Edit" disabled readonly style="width: 20rem;">
+                            <input class="form-control" id="form-profile" type="text" value=iFIKOZ 
+                            aria-label="Nickname Edit" disabled readonly>
                         </div>
                         <div>
 
@@ -137,8 +141,8 @@
                 <div>
                     <div class="form-edit">
                         <div>
-                            <input class="form-control" type="text" value=arfiko@gmail.com 
-                            aria-label="Email Edit" disabled readonly style="width: 20rem;">
+                            <input class="form-control" id="form-profile" type="text" value=arfiko@gmail.com 
+                            aria-label="Email Edit" disabled readonly>
                         </div>
                         <div>
 

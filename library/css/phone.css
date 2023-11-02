@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px) {
+/*Index*/
 .index{
     margin: 0px 0px;
     padding: 5px;
@@ -30,11 +31,11 @@
 .tentangweb {
     flex-direction: column;
 }
-
 .tentangweb>div {
     margin-top: 1rem;
     width: 100%;
 }
+/*submit*/
   .drpfile {
     height: 15rem;
     width: auto;
@@ -49,4 +50,4 @@
   .textinput{
     height: 10rem;
   }
-  }
+}

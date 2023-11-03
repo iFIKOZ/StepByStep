@@ -1,0 +1,12 @@
+#filter{
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 600px) {
+    #filter{
+        margin: 0px 10px;
+        height: 50%;
+    }
+    .index{
+        margin: 0px 0px;
+    }
+}

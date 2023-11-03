@@ -1,5 +1,7 @@
-
 @media only screen and (max-width: 600px) {
+#step-nav-bwh{
+    display: none;
+}
 .step-nav{
     padding: 10 0;
 }
@@ -19,4 +21,9 @@
 .rate{
     float: right;
 }
+}
+@media only screen and (min-width: 601px) {
+    #step-nav-ats{
+        display: none;
+    }
 }

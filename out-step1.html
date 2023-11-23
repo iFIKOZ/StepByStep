@@ -26,7 +26,16 @@
 <!-- ATAS -->
 
 <body>
-
+    <div id="loader-wrapper">
+        <div class="dots"></div>
+      </div>
+          <script>
+            var loader = document.getElementById("loader-wrapper");
+        
+            window.addEventListener("load",function(){
+              loader.style.display = "none" ;
+            })
+          </script>
     <!-- HEADER -->
     <div class="b-example-divider"></div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -80,10 +89,10 @@
                 </div>
                 <div>
                     <div class="step-nav" id="step-nav-ats">
-                        <a href="https://drive.google.com/uc?export=download&id=1CY2ELKlp6aE6Zz3EyJiMPRifAx9Gf04r" type="button" class="btn btn-warning shadow-none">Files</a>
-                        <a href="#supplies" type="button" class="btn btn-warning shadow-none">Tools And Material</a>
-                        <a href="#step" type="button" class="btn btn-warning shadow-none">Build Step</a>
-                        <a href="#step" type="button" class="btn btn-warning shadow-none">Remix</a>
+                        <a href="https://drive.google.com/uc?export=download&id=1CY2ELKlp6aE6Zz3EyJiMPRifAx9Gf04r" type="button" class="btn btn-warning">Files</a>
+                        <a href="#supplies" type="button" class="btn btn-warning ">Tools And Material</a>
+                        <a href="#step" type="button" class="btn btn-warning ">Build Step</a>
+                        <a href="#step" type="button" class="btn btn-warning ">Remix</a>
                     </div>
                 </div>
 
@@ -94,6 +103,7 @@
                     </p>
                 </div>
 
+                <hr style="border: 2px solid orange;">
                 <div class="step-step">
                     <div>
                         <h3 style="text-align: center;" id="supplies">Supplies</h3>
@@ -107,8 +117,10 @@
                           </ul> </b>
                     </div>
 
+                    <hr style="border: 2px solid orange;">
                     <div id="step">
-                        <h3 style="text-align: center;">Step 1</h3>
+                        <h3 style="text-align: center;">Langkah-Langkah</h3>
+                        <h4 style="text-align: center;">Step 1</h4>
                     </div>
                     <div class="step-thumbnail" style="justify-content: center;">
                         <img src="library/images/tutor/item4 (2).jpg" width="50%">
@@ -121,7 +133,7 @@
                     </div>
 
                     <div>
-                        <h3 style="text-align: center;">Step 2</h3>
+                        <h4 style="text-align: center;">Step 2</h4>
                     </div>
                     <div class="step-thumbnail">
                         <img src="library/images/tutor/item4 (3).jpg" width="50%">
@@ -134,7 +146,7 @@
                     </div>
 
                     <div>
-                        <h3 style="text-align: center;">Step 3</h3>
+                        <h4 style="text-align: center;">Step 3</h4>
                     </div>
                     <div class="step-thumbnail">
                         <img src="library/images/tutor/item4 (4).jpg" width="50%">

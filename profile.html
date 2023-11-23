@@ -27,7 +27,16 @@
 <!-- ATAS -->
 
 <body>
-
+  <div id="loader-wrapper">
+    <div class="dots"></div>
+  </div>
+      <script>
+        var loader = document.getElementById("loader-wrapper");
+    
+        window.addEventListener("load",function(){
+          loader.style.display = "none" ;
+        })
+      </script>
     <!-- HEADER -->
     <div class="b-example-divider"></div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">

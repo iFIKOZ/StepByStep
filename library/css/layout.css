@@ -127,6 +127,7 @@ footer {
 }
 .step-thumbnail > img {
     border-radius: 10px;
+    border: 5px solid #777;
 }
 .step-nav {
     display: flex;
@@ -162,7 +163,7 @@ footer {
 .komen {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 .komen-user{

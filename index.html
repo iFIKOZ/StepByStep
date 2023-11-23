@@ -25,6 +25,16 @@
 <!-- ATAS -->
 
 <body>
+  <div id="loader-wrapper">
+    <div class="dots"></div>
+  </div>
+      <script>
+        var loader = document.getElementById("loader-wrapper");
+    
+        window.addEventListener("load",function(){
+          loader.style.display = "none" ;
+        })
+      </script>
 
   <!-- HEADER -->
   <div class="b-example-divider"></div>
@@ -217,13 +227,18 @@
 
   <!-- Footer -->
   <footer class="text-center text-lg-start text-dark tpbt border-top">
-    <div class="text-center p-1">
+    <div class="text-left p-1">
         <ul class="nav col-12 col-md-auto mb-1 justify-content-center mb-md-0" style="font-size: 25px;">
             <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a></li>
             <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram" style="color: #E4405F;"></i></a></li>
             <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-facebook" style="color: #4267B2;"></i></a></li>
         </ul>
     </div>
+    <div class="text-right p-1">
+      <ul class="nav col-12 col-md-auto mb-1 justify-content-center mb-md-0" style="font-size: 18px;">
+          <a href="support.html" style="text-decoration: none;color: orange;"><li>Need Help?</li></a>
+      </ul>
+  </div>
   </footer> 
   <!-- Footer -->
 
